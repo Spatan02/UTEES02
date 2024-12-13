@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fondo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.content-descarga{
+    font-size: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-position: center;
+    background: #d6eaf8;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #5dade2;
+    box-shadow:
+    inset 0 -3em 3em #aed6f1,
+    0 0 0 2px #f8f9f9,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-style: inset;
+    background: transparent;
+    
+    
+    
+    
+}
+.descarga-ahora{
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 50px 50px ;
+    background:  #1b4f72 ;
+    color: #ffffff;
+    border-radius: 5px;
+    
+}
+.descarga-ahora:hover{
+    opacity: 0.8;
+}
+.btn-descarga{
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #1b4f72 ;
+    color: #fff;
+    border:none;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: 0px;
+    cursor: pointer;
+}
+.btn-descarga:hover{
+    opacity: 0.5;
+}
+.content-descarga i{
+    margin-left: 5px;
+}
+
+
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: #ffffff;
+    height: 80px;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    
+}
